@@ -1,30 +1,49 @@
 # e-ticaret
 Bu repo İBB'nin 100 Kadın Yazılımcı eğitimi kapsamında HTML, CSS dersleri altında e-ticaret web sayfasının metronic bootstrap örneği üzerinden oluşturulmasını içermektedir.
-İçerisinde bir adet README dosyası ve aşağıdaki dosyalar yer almaktadır.
 
-  TANIMLAR
+İçerisinde bir adet README dosyası ve aşağıdaki başlıkları içeren HTML dosyaları yer almaktadır.
+
+ 1.TANIMLAR
 
 	Müşteri
+		Liste
+		Kayıt
 
 	Ürün
+		Liste
+		Kayıt
 
-OPERASYON
+ 2.OPERASYON
 
 	Sipariş
+		Liste
+		Kayıt
 
 	Tahsilat
+		Liste
+		Kayıt
 
 	Ödeme
+		Liste
+		Kayıt
 
-EKRAN İÇERİKLERİ
+ 3.EKRAN İÇERİKLERİ
 
 	Sipariş Durumu
+		Liste
+		Kayıt
 
 	Şehir
+		Liste
+		Kayıt
 
 	Tahsilat Tipi
+		Liste
+		Kayıt
 
 	Ürün Kategorisi
+		Liste
+		Kayıt
 
 ## Installation
 
