@@ -780,67 +780,82 @@ License: You must have a valid license purchased only from themeforest(the above
 							<form role="form" class="form-horizontal">
 								<div class="form-body">
 									<div class="form-group form-md-line-input">
-										<label class="col-md-2 control-label" for="cmbMusteri">Müşteri</label>
+										<label class="col-md-2 control-label" for="form_control_1">Regular input</label>
 										<div class="col-md-10">
-											<select class="form-control" id="cmbMusteri" name="cmbMusteri">
-												<option value="">Lütfen seçiniz...</option>
-												<option value="">Müşteri 1</option>
-												<option value="">Müşteri 2</option>
-												<option value="">Müşteri 3</option>
-												<option value="">Müşteri 4</option>
-											</select>
+											<input type="text" class="form-control" id="form_control_1" placeholder="Enter your name">
 											<div class="form-control-focus">
 											</div>
 										</div>		
 									</div>
 									<div class="form-group form-md-line-input">
-										<label class="col-md-2 control-label" for="txtTahsilatTutar">Tutar</label>
-										 	<div class="col-md-10">
-												<input type="text" class="form-control" id="txtTahsilatTutar" name="txtTahsilatTutar" placeholder="Tutar giriniz">
-												<div class="form-control-focus">
-												</div>
-											</div>
-									</div>								
-									<div class="form-group form-md-line-input">
-										<label class="col-md-2 control-label" for="cmbTahsilatParaBirimi">Para Birimi</label>
+										<label class="col-md-2 control-label" for="form_control_1">Input with hint</label>
 										<div class="col-md-10">
-											<select class="form-control" id="cmbTahsilatParaBirimi" name="cmbTahsilatParaBirimi">
-												<option value="1">Lütfen seçiniz...</option>
-												<option value="2">TL</option>
-												<option value="3">Euro</option>
-												<option value="4">Dolar</option>
-											</select>
+											<input type="text" class="form-control" id="form_control_1" placeholder="Enter your email">
 											<div class="form-control-focus">
 											</div>
+											<span class="help-block">Some help goes here...</span>
 										</div>
-									</div>
-									<div class="form-group form-md-line-input">
-										<label class="col-md-2 control-label" for="cmbIlgiliSiparis">İlgili Sipariş </label>
-										<div class="col-md-10">
-											<select class="form-control" id="cmbIlgiliSiparis" name="cmbIlgiliSiparis">
-												<option value="1">Lütfen seçiniz...</option>
-												<option value="2">Sipariş 1</option>
-												<option value="3">Sipariş 2</option>
-												<option value="4">Sipariş 3</option>
-												<option value="5">Sipariş 4</option>
-												<option value="6">Sipariş 5</option>
-											</select>
-											<div class="form-control-focus">
-											</div>
-										</div>
-									</div>
-									<div class="form-group form-md-line-input">
-										<label class="col-md-2 control-label" for="txtTahsilatTarihi">Tahsilat Tarihi</label>
-										 	<div class="col-md-10">
-												<input type="text" class="form-control" id="txtTahsilatTarihi" name="txtTahsilatTarihi" placeholder="GG/AA/YYYY formatında giriniz">
-												<div class="form-control-focus">
-												</div>
-											</div>
 									</div>
 									<div class="form-group form-md-line-input has-success">
-										<label class="col-md-2 control-label" for="txtTahsilatAciklama">Açıklama</label>
+										<label class="col-md-2 control-label" for="form_control_1">Success Input</label>
 										<div class="col-md-10">
-											<textarea class="form-control" id="txtTahsilatAciklama" name="txtTahsilatAciklama" rows="3" placeholder="Tahsilat açıklaması yazınız"></textarea>
+											<input type="text" class="form-control" id="form_control_1" placeholder="Success state">
+											<div class="form-control-focus">
+											</div>
+										</div>
+									</div>
+									<div class="form-group form-md-line-input has-warning">
+										<label class="col-md-2 control-label" for="form_control_1">Warning Input</label>
+										<div class="col-md-10">
+											<input type="text" class="form-control" id="form_control_1" placeholder="Warning state">
+											<div class="form-control-focus">
+											</div>
+										</div>
+									</div>
+									<div class="form-group form-md-line-input has-error">
+										<label class="col-md-2 control-label" for="form_control_1">Error State</label>
+										<div class="col-md-10">
+											<input type="text" class="form-control" id="form_control_1" placeholder="Error state">
+											<div class="form-control-focus">
+											</div>
+										</div>
+									</div>
+									<div class="form-group form-md-line-input">
+										<label class="col-md-2 control-label" for="form_control_1">Dropdown Input</label>
+										<div class="col-md-10">
+											<select class="form-control" id="form_control_1">
+												<option value=""></option>
+												<option value="">Option 1</option>
+												<option value="">Option 2</option>
+												<option value="">Option 3</option>
+												<option value="">Option 4</option>
+											</select>
+											<div class="form-control-focus">
+											</div>
+										</div>
+									</div>
+									<div class="form-group form-md-line-input">
+										<label class="col-md-2 control-label" for="form_control_1">Disabled</label>
+										<div class="col-md-10">
+											<input type="text" class="form-control" disabled id="form_control_1" placeholder="Placeholder...">
+											<div class="form-control-focus">
+											</div>
+										</div>
+									</div>
+									<div class="form-group form-md-line-input">
+										<label class="col-md-2 control-label" for="form_control_1">Readonly</label>
+										<div class="col-md-10">
+											<input type="text" class="form-control" readonly value="Some value" id="form_control_1" placeholder="Placeholder...">
+											<div class="form-control-focus">
+											</div>
+										</div>
+									</div>
+									<div class="form-group form-md-line-input">
+										<label class="col-md-2 control-label" for="form_control_1">Readonly</label>
+										<div class="col-md-10">
+											<div class="form-control form-control-static">
+												email@example.com
+											</div>
 											<div class="form-control-focus">
 											</div>
 										</div>
@@ -849,8 +864,8 @@ License: You must have a valid license purchased only from themeforest(the above
 								<div class="form-actions">
 									<div class="row">
 										<div class="col-md-offset-2 col-md-10">
-											<button type="button" class="btn blue">KAYDET</button>
-											<button type="button" class="btn default">VAZGEÇ</button>
+											<button type="button" class="btn default">Cancel</button>
+											<button type="button" class="btn blue">Submit</button>
 										</div>
 									</div>
 								</div>
