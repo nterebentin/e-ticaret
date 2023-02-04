@@ -759,11 +759,13 @@ License: You must have a valid license purchased only from themeforest(the above
 					<div class="portlet light">
 						<div class="portlet-title">
 							<div class="caption font-green-haze">
-								<!-- <i class="icon-settings font-green-haze"></i>
-								<span class="caption-subject bold uppercase"> Horizontal Form</span> -->
+								<!--
+								<i class="icon-settings font-green-haze"></i>
+								<span class="caption-subject bold uppercase"> Horizontal Form</span>-->
 							</div>
 							<div class="actions">
-								<!-- <a class="btn btn-circle btn-icon-only blue" href="javascript:;">
+								<!--
+								<a class="btn btn-circle btn-icon-only blue" href="javascript:;">
 								<i class="icon-cloud-upload"></i>
 								</a>
 								<a class="btn btn-circle btn-icon-only green" href="javascript:;">
@@ -771,7 +773,7 @@ License: You must have a valid license purchased only from themeforest(the above
 								</a>
 								<a class="btn btn-circle btn-icon-only red" href="javascript:;">
 								<i class="icon-trash"></i>
-								</a> -->
+								</a>-->
 								<a class="btn btn-circle btn-icon-only btn-default fullscreen" href="javascript:;" data-original-title="" title="">
 								</a>
 							</div>
@@ -780,82 +782,72 @@ License: You must have a valid license purchased only from themeforest(the above
 							<form role="form" class="form-horizontal">
 								<div class="form-body">
 									<div class="form-group form-md-line-input">
-										<label class="col-md-2 control-label" for="form_control_1">Regular input</label>
+										<label class="col-md-2 control-label" for="cmbKime">Kime</label>
 										<div class="col-md-10">
-											<input type="text" class="form-control" id="form_control_1" placeholder="Enter your name">
-											<div class="form-control-focus">
-											</div>
-										</div>		
-									</div>
-									<div class="form-group form-md-line-input">
-										<label class="col-md-2 control-label" for="form_control_1">Input with hint</label>
-										<div class="col-md-10">
-											<input type="text" class="form-control" id="form_control_1" placeholder="Enter your email">
-											<div class="form-control-focus">
-											</div>
-											<span class="help-block">Some help goes here...</span>
-										</div>
-									</div>
-									<div class="form-group form-md-line-input has-success">
-										<label class="col-md-2 control-label" for="form_control_1">Success Input</label>
-										<div class="col-md-10">
-											<input type="text" class="form-control" id="form_control_1" placeholder="Success state">
-											<div class="form-control-focus">
-											</div>
-										</div>
-									</div>
-									<div class="form-group form-md-line-input has-warning">
-										<label class="col-md-2 control-label" for="form_control_1">Warning Input</label>
-										<div class="col-md-10">
-											<input type="text" class="form-control" id="form_control_1" placeholder="Warning state">
-											<div class="form-control-focus">
-											</div>
-										</div>
-									</div>
-									<div class="form-group form-md-line-input has-error">
-										<label class="col-md-2 control-label" for="form_control_1">Error State</label>
-										<div class="col-md-10">
-											<input type="text" class="form-control" id="form_control_1" placeholder="Error state">
-											<div class="form-control-focus">
-											</div>
-										</div>
-									</div>
-									<div class="form-group form-md-line-input">
-										<label class="col-md-2 control-label" for="form_control_1">Dropdown Input</label>
-										<div class="col-md-10">
-											<select class="form-control" id="form_control_1">
-												<option value=""></option>
-												<option value="">Option 1</option>
-												<option value="">Option 2</option>
-												<option value="">Option 3</option>
-												<option value="">Option 4</option>
+											<select class="form-control" id="cmbKime" name="cmbKime">
+												<option value="">Lütfen seçiniz</option>
+												<option value="">Müşteri 1</option>
+												<option value="">Müşteri 2</option>
+												<option value="">Müşteri 3</option>
+												
 											</select>
 											<div class="form-control-focus">
 											</div>
 										</div>
 									</div>
 									<div class="form-group form-md-line-input">
-										<label class="col-md-2 control-label" for="form_control_1">Disabled</label>
+										<label class="col-md-2 control-label" for="txtOdemeTutar">Tutar</label>
 										<div class="col-md-10">
-											<input type="text" class="form-control" disabled id="form_control_1" placeholder="Placeholder...">
+											<input type="text" class="form-control" id="txtOdemeTutar" name="txtOdemeTutar" placeholder="Tutar giriniz">
+											<div class="form-control-focus">
+											</div>
+											<span class="help-block">Some help goes here...</span>
+										</div>
+									</div>
+									
+									
+									<div class="form-group form-md-line-input">
+										<label class="col-md-2 control-label" for="cmbOdemeParaBirimi">Para Birimi</label>
+										<div class="col-md-10">
+											<select class="form-control" id="cmbOdemeParaBirimi" name="cmbOdemeParaBirimi">
+												<option value="">Lütfen seçiniz...</option>
+												<option value="">TL</option>
+												<option value="">Euro</option>
+												<option value="">Dolar</option>
+												
+											</select>
 											<div class="form-control-focus">
 											</div>
 										</div>
 									</div>
 									<div class="form-group form-md-line-input">
-										<label class="col-md-2 control-label" for="form_control_1">Readonly</label>
+										<label class="col-md-2 control-label" for="txtOdemeTarihi">Ödeme Tarihi</label>
 										<div class="col-md-10">
-											<input type="text" class="form-control" readonly value="Some value" id="form_control_1" placeholder="Placeholder...">
+											<input type="text" class="form-control" id="txtOdemeTarihi" name="txtOdemeTarihi" placeholder="GG/AA/YYYY formatında giriniz">
+											<div class="form-control-focus">
+											</div>
+											<span class="help-block">Some help goes here...</span>
+										</div>
+									</div>
+									
+									<div class="form-group form-md-line-input">
+										<label class="col-md-2 control-label" for="cmbOdemeKanali">Ödeme Kanalı</label>
+										<div class="col-md-10">
+											<select class="form-control" id="cmbOdemeKanali" name="cmbOdemeKanali">
+												<option value="">Lütfen seçiniz...</option>
+												<option value="">Sipariş 1</option>
+												<option value="">Sipariş 2</option>
+												<option value="">Sipariş 3</option>
+												
+											</select>
 											<div class="form-control-focus">
 											</div>
 										</div>
 									</div>
-									<div class="form-group form-md-line-input">
-										<label class="col-md-2 control-label" for="form_control_1">Readonly</label>
+									<div class="form-group form-md-line-input has-success">
+										<label class="col-md-2 control-label" for="txtAciklama">Açıklama</label>
 										<div class="col-md-10">
-											<div class="form-control form-control-static">
-												email@example.com
-											</div>
+											<textarea class="form-control" id="txtAciklama" name="txtAciklama" rows="3" placeholder=""></textarea>
 											<div class="form-control-focus">
 											</div>
 										</div>
@@ -864,18 +856,14 @@ License: You must have a valid license purchased only from themeforest(the above
 								<div class="form-actions">
 									<div class="row">
 										<div class="col-md-offset-2 col-md-10">
-											<button type="button" class="btn default">Cancel</button>
-											<button type="button" class="btn blue">Submit</button>
+											<button type="button" class="btn blue">Kaydet</button>
+											<button type="button" class="btn default">Vazgeç</button>
 										</div>
 									</div>
 								</div>
 							</form>
 						</div>
 					</div>
-					<!-- END SAMPLE FORM PORTLET-->
-					<!-- BEGIN SAMPLE FORM PORTLET-->
-				</div>
-			</div>
 			<!-- END PAGE CONTENT INNER -->
 		</div>
 	</div>
